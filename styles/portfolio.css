@@ -16,7 +16,20 @@ body{
 font-weight: 700;
 padding: 15px 35px;
 }
+.section-title{
+    color:#181818);
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
 
+}
+.section-description{
+    color: #757575);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+}
 /* nav related styles */
 nav{
     display: flex;
@@ -44,10 +57,12 @@ nav a{
 /* header related styles*/
 .header{
 
-    background-color:#FFF8F3;
+    background-color:#ceb29e;
     background-image: url('../images/header_bg.png');
+    background-image: url('../images/developer.png');
     background-repeat: no-repeat;
     background-position: bottom right;
+    background-position: left;
 
 
 }
@@ -55,7 +70,11 @@ nav a{
     padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 
+}
+.banner-content{
+    max-width: 500px;
 }
 .banner .profile-pic{
     width: 500px;
@@ -74,4 +93,28 @@ nav a{
 }
 .banner-description{
     margin-bottom: 30px;
+    
 }
+/* main section styles*/
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about section styles */
+.about{
+    padding: 130px;
+    border-radius: 10px;
+background: #ceb29e; 
+margin: 130px 0;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+/* #ceb29e */ 
+
+
